@@ -4,6 +4,9 @@ This project was bootstrapped with [mysql-nodejs-express-reactjs-redux](https://
 
 ## Using this project
 
+add db/db.sql file to database
+
+
 Clone the project, change into the directory and install the dependencies.
 
 ```bash
@@ -33,5 +36,7 @@ npm run dev
 ```
 
 The React application will run on port 3000 and the server port 3006.
+
+See below output screen after runnig above comand : 
 
 ![alt OutPut Screen](https://github.com/sanjeevpuspam/SERN/blob/master/public/output.PNG)
