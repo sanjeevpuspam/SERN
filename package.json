@@ -1,0 +1,49 @@
+{
+  "name": "jamuna-arunachalam",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap-4-react": "0.0.59",
+    "bootstrap-sass": "^3.4.1",
+    "cors": "^2.8.5",
+    "font-awesome": "^4.7.0",
+    "mysql": "^2.18.1",
+    "react": "^16.13.0",
+    "react-confirm-alert": "^2.6.1",
+    "react-dom": "^16.13.0",
+    "react-notifications": "^1.6.0",
+    "react-redux": "^7.2.1",
+    "react-scripts": "^3.4.3",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node-env-run server --exec nodemon | pino-colada",
+    "dev": "run-p server start"
+  },
+  "proxy": "http://localhost:3005",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "node-env-run": "^3.0.2",
+    "nodemon": "^1.19.4",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^1.5.1"
+  }
+}
