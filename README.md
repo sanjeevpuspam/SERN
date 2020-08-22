@@ -1,6 +1,6 @@
 # React application with Express server and Sql Database
 
-This project was bootstrapped with [Create React App](https://github.com/sanjeevpuspam/SERN). Then an Express server was added in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
+This project was bootstrapped with [mysql-nodejs-express-reactjs-redux](https://github.com/sanjeevpuspam/SERN). Then an Express server was added in the `server` directory. The server is proxied via the `proxy` key in `package.json`.
 
 ## Using this project
 

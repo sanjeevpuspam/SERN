@@ -1,7 +1,8 @@
 {
-  "name": "jamuna-arunachalam",
+  "name": "mysql-nodejs-express-reactjs-redux",
   "version": "0.1.0",
   "private": true,
+  "authur": "sanjeev puspam",
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap-4-react": "0.0.59",
