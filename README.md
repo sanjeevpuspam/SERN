@@ -33,3 +33,5 @@ npm run dev
 ```
 
 The React application will run on port 3000 and the server port 3006.
+
+(https://github.com/sanjeevpuspam/SERN/blob/master/public/output.PNG)
